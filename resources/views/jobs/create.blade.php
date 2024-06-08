@@ -1,5 +1,7 @@
 <x-layouts>
-    <x-slot:title>Create</x-slot:title>
+    <x-slot:title>
+        Create
+    </x-slot:title>
     <form method="POST" action="/jobs">
         @csrf
         <div class="space-y-12">
