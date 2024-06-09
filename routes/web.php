@@ -17,3 +17,4 @@ Route::prefix('/jobs')->group(function() {
 
 Route::view('/contact' , 'contact');
 
+//There is no changes in this episode(20).
